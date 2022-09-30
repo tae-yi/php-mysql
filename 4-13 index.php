@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1><a href="index.php">WEB</a></h1>
+        <ol>
+            <li><a href="index.php?id=HTML">HTML</a></li>
+            <li><a href="index.php?id=CSS">CSS</a></li>
+            <li><a href="index.php?id=JavaScript">JavaScript</a></li>
+        </ol>
+        <h2>
+            <?php
+            if() {
+                echo $_GET['id'];
+            } else { 
+            echo "Welcome";
+            }
+            ?>
+        </h2>
+        <?php
+        echo file_get_contents("data/".$_GET['id']);
+        ?>
+        Lorem ipsum dolor sit amet, consectetur egoing adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aloqua. Ut enum ad minim veniam, quis nostrud exercitation ullamco egoing laboris nisi ut aliquip ex ea commodo conseguat.Duis aute irure dolor in reprehendrit in voluptate velit esse cillum dolore egoing eu fugiat nalla pariatur. Exvepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. by egoing
+    </body>
+</html>
